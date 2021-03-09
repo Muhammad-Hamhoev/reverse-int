@@ -1,16 +1,4 @@
 module.exports = function reverse(n) {
 
-    console.log(n.toSring().reverse())
+  return +n.toString().split('').reverse().join('');
 }
-
-
-
-
-
-function reverse(n) {
-    console.log(n)
-    return n.toString().split("").reverse();
-}
-
-
-console.log(reverse(123456789));
